@@ -2,6 +2,7 @@ import React from 'react';
 import { navigate } from "gatsby";
 import { useLocale } from '../../hooks/locale';
 import useLanguageMapping from '../useLanguageMapping';
+import locales from '../../../config/i18n';
 
 import * as S from './styled';
 
@@ -18,7 +19,7 @@ const Languages = () => {
 
     const url = window.location.pathname.split("/").pop();
 
-    if (!url) return lang === "en" ?
+    if (!url) return locales[lang].default ?
       navigate(`/`) :
       navigate(`/${lang}`);
 
@@ -34,31 +35,24 @@ const Languages = () => {
 
     if (!associatedUrls) return navigate("/");
 
-    return lang === "en" ?
-      navigate(`/${associatedUrls[lang]}`) :
-      navigate(`/${lang}/${associatedUrls[lang]}`);
+    return locales[lang].default ?
+      navigate(`${associatedUrls[lang]}`) :
+      navigate(`/${lang}${associatedUrls[lang]}`);
   }
 
   return (
     <S.LanguageWrapper>
-      <S.LanguageItem>
-        <S.LanguageLink 
-          to="/" 
-          onClick={(e) => handleClickLanguage(e, "en")}
-          className={locale === 'en' ? 'is-active' : ''}
-        >
-          EN
-        </S.LanguageLink>
-      </S.LanguageItem>
-      <S.LanguageItem>
-        <S.LanguageLink 
-          to="/" 
-          onClick={(e) => handleClickLanguage(e, "pt")}
-          className={locale === 'pt' ? 'is-active' : ''}
-        >
-          PT
-        </S.LanguageLink>
-      </S.LanguageItem>
+      {Object.keys(locales).map((loc) => (
+        <S.LanguageItem>
+          <S.LanguageLink
+            to="/"
+            onClick={(e) => handleClickLanguage(e, loc)}
+            className={locale === loc ? 'is-active' : ''}
+          >
+            {loc.toUpperCase()}
+          </S.LanguageLink>
+        </S.LanguageItem>
+      ))}
     </S.LanguageWrapper>
   );
 };

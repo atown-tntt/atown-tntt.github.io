@@ -3,6 +3,7 @@ import media from 'styled-media-query';
 
 export const ButtonHamburger = styled.button`
   background: transparent;
+  cursor: pointer;
   display: inline-block;
   width: 50px;
   height: 50px;

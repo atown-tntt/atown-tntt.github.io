@@ -1,8 +1,8 @@
 {
-  "name": "using-i18n",
+  "name": "atown-website",
   "private": true,
-  "description": "Gatsby example site using MDX and dependency-free i18n",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "description": "Website for Auburn, WA Holy Family TNTT",
+  "author": "Holy Family Auburn, WA <thanhgiaauburn@gmail.com>",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

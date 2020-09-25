@@ -1,37 +1,40 @@
 {
   "languageMapping": [
     {
-      "en": "/about",
-      "pt": "/sobre"
+      "en": "/about2",
+      "vi": "/sobre"
     },
     {
       "en": "/blog",
-      "pt": "/blog"
+      "vi": "/blog"
     },
     {
       "en": "/contact",
-      "pt": "/contato"
+      "vi": "/contato"
     },
-
+    {
+      "en": "/about",
+      "vi": "/about"
+    },
     {
       "en": "/blog/markdown-examples",
-      "pt": "/blog/exemplos-de-markdown"
+      "vi": "/blog/exemplos-de-markdown"
     },
     {
       "en": "/blog/javascript-language",
-      "pt": "/blog/linguagem-javascript"
+      "vi": "/blog/linguagem-javascript"
     },
     {
       "en": "/blog/digital-image-processing",
-      "pt": "/blog/processamento-de-imagens-digitais"
+      "vi": "/blog/processamento-de-imagens-digitais"
     },
     {
       "en": "/blog/adding-menu-items",
-      "pt": "/blog/adicionando-itens-no-menu"
+      "vi": "/blog/adicionando-itens-no-menu"
     },
     {
       "en": "/blog/creating-posts-and-pages",
-      "pt": "/blog/criacao-de-posts-e-paginas"
+      "vi": "/blog/criacao-de-posts-e-paginas"
     }
   ]
 } 

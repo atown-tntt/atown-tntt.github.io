@@ -1,8 +1,8 @@
 { 
   "home": "Home",
 
-  "hello": "Gatsby multi-language starter",
-  "subline": "Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.",
+  "hello": "TNTT Holy Family Auburn, WA",
+  "subline": "This is the official website for TNTT at Holy Family Auburn, WA.",
   "latestPosts": "Latest posts",
   "category": "Category", 
   "allPosts": "All Posts",
