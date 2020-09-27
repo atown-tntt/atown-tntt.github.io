@@ -1,24 +1,16 @@
 ---
-title: 'About Us'
+title: 'Ngành Ấu Nhi'
 date: 2019-07-01 01:21:23
 page: true
 ---
 
-The Vietnamese Eucharistic Youth Movement is a Catholic non-profit organization. We are a
-Eucharistic youth group devoted to teaching and leading the next generation of
-Vietnamese-Catholics to love and serve God.
+# About
+Ngành Ấu Nhi với khẩu hiệu “Ngoan!”, từ 6 đến 9 tuổi là Ấu Nhi chính thức. Khăn quàng màu xanh
+lá mạ, phía sau có Thánh Giá màu vàng. Màu xanh lá mạ tượng trưng của chồi non đang vươn
+mình lớn dậy, màu của lứa tuổi hồn nhiên, trong trắng và ngây thơ. Cũng như các em luôn trông
+cậy vào cha mẹ và phó thác vào Chúa. Các em ở Ngành Ấu Nhi là từ 7-9 tuổi gồm có ba cấp: Cấp 1,
+2 và 3.
 
-Đoàn Thánh Gia (DTG) is one of 143 Chapters of the Vietnamese Eucharistic Youth
-movement (VEYM) located in Auburn, Washington. We are a part of the League of Chapters
-Ignatius of Loyola in the Pacific Northwest. Our chapter was founded in 2004. From
-September to June, we meet every Sunday from 12:30-3pm, with Vietnamese mass at 3pm.
+# Announcements
 
-## Our Purpose
-The Eucharistic Youth Movement has two general purposes:
-
-* To educate and train youths in becoming a better person as well as an excellent Christian
-* To organize and to guide all youths in spreading the Good News of the Gospel and to
-actively be involved in working for the good of society through charitable services and
-helping others.
-
-For more information about VEYM, please visit: https://veym.net/
+# Gallery

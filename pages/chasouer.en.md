@@ -1,24 +1,16 @@
 ---
-title: 'About Us'
+title: 'Cha Tuyên Uý và Trợ Uý'
 date: 2019-07-01 01:21:23
 page: true
 ---
 
-The Vietnamese Eucharistic Youth Movement is a Catholic non-profit organization. We are a
-Eucharistic youth group devoted to teaching and leading the next generation of
-Vietnamese-Catholics to love and serve God.
+# About
+The Chaplain scarf is white with a red stripe border and the TNTT logo on the
+back. White symbolizes innocence, purity, hope, trust, and victory. Thus, He will
+be the representative of God to lead the Vietnamese Eucharistic Youth
+Movement. The Chaplain scarf for brothers and sisters of the Holy Orders is a red
+scarf symbolizing the blood poured for our sins and sacrifice through service, with
+a white border representing the hope, patience, and generosity of all Assistant
+Chaplains of the Movement.
 
-Đoàn Thánh Gia (DTG) is one of 143 Chapters of the Vietnamese Eucharistic Youth
-movement (VEYM) located in Auburn, Washington. We are a part of the League of Chapters
-Ignatius of Loyola in the Pacific Northwest. Our chapter was founded in 2004. From
-September to June, we meet every Sunday from 12:30-3pm, with Vietnamese mass at 3pm.
-
-## Our Purpose
-The Eucharistic Youth Movement has two general purposes:
-
-* To educate and train youths in becoming a better person as well as an excellent Christian
-* To organize and to guide all youths in spreading the Good News of the Gospel and to
-actively be involved in working for the good of society through charitable services and
-helping others.
-
-For more information about VEYM, please visit: https://veym.net/
+# Gallery

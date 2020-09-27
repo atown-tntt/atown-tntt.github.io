@@ -1,24 +1,17 @@
 ---
-title: 'About Us'
+title: 'Huynh Trưởng'
 date: 2019-07-01 01:21:23
 page: true
 ---
 
-The Vietnamese Eucharistic Youth Movement is a Catholic non-profit organization. We are a
-Eucharistic youth group devoted to teaching and leading the next generation of
-Vietnamese-Catholics to love and serve God.
+# About
+Huynh Trưởng là những giáo dân Công Giáo từ 18 tuổi trở lên và đã qua các
+khóa huấn luyện của Phong Trào, đã tuyên hứa và được sự bổ nhiệm của
+Cha Tuyên Úy. Khẩu hiệu của Huynh Trường là “Phụng Sự". Huynh Trưởng
+khăn quàng màu đỏ, viền vàng, phía sau có huy hiệu TNTT. Màu đỏ, màu
+của máu tượng trưng cho sự hy sinh, màu của sự chịu đựng, màu của sự
+hiến tế. Viền vàng: tượng trưng cho niềm vui mừng và hy vọng.
 
-Đoàn Thánh Gia (DTG) is one of 143 Chapters of the Vietnamese Eucharistic Youth
-movement (VEYM) located in Auburn, Washington. We are a part of the League of Chapters
-Ignatius of Loyola in the Pacific Northwest. Our chapter was founded in 2004. From
-September to June, we meet every Sunday from 12:30-3pm, with Vietnamese mass at 3pm.
+# Announcements
 
-## Our Purpose
-The Eucharistic Youth Movement has two general purposes:
-
-* To educate and train youths in becoming a better person as well as an excellent Christian
-* To organize and to guide all youths in spreading the Good News of the Gospel and to
-actively be involved in working for the good of society through charitable services and
-helping others.
-
-For more information about VEYM, please visit: https://veym.net/
+# Gallery

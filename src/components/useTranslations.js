@@ -51,10 +51,8 @@ const query = graphql`
 
             button
 
-            aboutProject
-            seeMorePWA
             maintainedBy
-            contributeMessage
+            giveFeedback
           }
         }
       }

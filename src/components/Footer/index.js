@@ -1,15 +1,14 @@
 import React from 'react';
 import useTranslations from '../useTranslations';
 import SocialLinks from '../SocialLinks';
+import LocalizedLink from '../LocalizedLink';
 
 import * as S from './styled';
 
 const Footer = () => {
   const {
-    aboutProject,
-    seeMorePWA,
     maintainedBy,
-    contributeMessage,
+    giveFeedback
   } = useTranslations();
 
   return (
@@ -17,31 +16,12 @@ const Footer = () => {
       <S.FooterContainer>
         <SocialLinks />
         <p>
-          {aboutProject}{' '}
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
-            target="_blank"
-          >
-            {seeMorePWA}
-          </a>
-          .
+          {maintainedBy}{' '}
+          2020-2022 BTV. 
         </p>
         <p>
-          {maintainedBy}{' '}
-          <a
-            href="https://twitter.com/_diogorodrigues"
-            target="_blank"
-          >
-            @_diogorodrigues
-          </a>
-          . {contributeMessage}{' '}
-          <a
-            href="https://github.com/diogorodrigues/iceberg-gatsby-multilang"
-            target="_blank"
-          >
-            Github
-          </a>
-          .
+          {giveFeedback}{': '}
+          <LocalizedLink to='/contact'>Contact Page</LocalizedLink>
         </p>
       </S.FooterContainer>
     </S.FooterWrapper>
