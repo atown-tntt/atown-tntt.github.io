@@ -17,33 +17,43 @@ const Languages = () => {
     e.preventDefault();
     if (locale === lang) return;
 
-    const url = window.location.pathname.split("/").pop();
+    let url;
+    if (window.location.pathname.split("/")[1] in locales) { // always will have 2 elements so we are fine indexing with 1
+      url = window.location.pathname.substring(3); // cut off 2 letter locale and slash
+    } else {
+      url = window.location.pathname;
+    }
 
-    if (!url) return locales[lang].default ?
+    if (!url || url === '/') return locales[lang].default ?
       navigate(`/`) :
       navigate(`/${lang}`);
 
     const associatedUrls = languageMapping.find(item => {
       let hasUrl = false;
 
-      Object.entries(item).forEach(([key, value]) => {
-        if (value.split("/").pop() === url) return hasUrl = true;
+      Object.values(item).forEach((value) => {
+        if (value === url) return hasUrl = true;
       });
 
       return hasUrl
     });
 
-    if (!associatedUrls) return navigate("/");
+    let translatedUrl;
+    if (associatedUrls) {
+      translatedUrl = associatedUrls[lang];
+    } else {
+      translatedUrl = url;
+    }
 
     return locales[lang].default ?
-      navigate(`${associatedUrls[lang]}`) :
-      navigate(`/${lang}${associatedUrls[lang]}`);
+      navigate(`${translatedUrl}`) :
+      navigate(`/${lang}${translatedUrl}`);
   }
 
   return (
     <S.LanguageWrapper>
       {Object.keys(locales).map((loc) => (
-        <S.LanguageItem>
+        <S.LanguageItem key={loc}>
           <S.LanguageLink
             to="/"
             onClick={(e) => handleClickLanguage(e, loc)}

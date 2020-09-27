@@ -60,10 +60,10 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 400;
     font-family: "Open Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     line-height: 160%;
     ${media.greaterThan('large')`
-      font-size: 1.7rem;
+      font-size: 1.7rem !important;
     `}
   }
   img {
@@ -107,6 +107,14 @@ const GlobalStyles = createGlobalStyle`
     --space-sm: 1rem;
     --space-lg: 3rem;
 
+  }
+
+  .dropdown-menu {
+    font-size: 1.7rem !important;
+
+    &:active {
+      color: #fff;
+    }
   }
 `;
 export default GlobalStyles;

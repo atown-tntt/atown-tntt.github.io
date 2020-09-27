@@ -3,33 +3,20 @@ import media from 'styled-media-query';
 import LocalizedLink from '../LocalizedLink';
 import { Link } from 'gatsby';
 
-export const Navigation = styled.nav`
-  display: flex;
-  flex-direction: column;
-  margin-top: var(--space-sm);
-  ${media.greaterThan('medium')`
-    flex-direction: row;
-    align-items: center;
-  `}
-`;
-
 export const NavigationLink = styled(LocalizedLink)`
   color: var(--text-dark);
-  text-decoration: none;
+  text-decoration: none !important;
   position: relative;
-  padding: 0 var(--space-sm);
   margin-bottom: var(--space-sm);
   text-align: center;
-  ${media.greaterThan('medium')`
-    margin-left: var(--space-sm);
+  cursor: pointer;
+  ${media.greaterThan('992px')`
     margin-bottom: 0;
-  `}
-  ${media.greaterThan('large')`
-    margin-left: var(--space);
+    padding: 0 var(--space-sm);
   `} 
 
-  &:after {
-    ${media.greaterThan('medium')`
+  &.top-level:after {
+    ${media.greaterThan('992px')`
       content: '';
       display: inline-block;
       width: 0;
@@ -46,12 +33,17 @@ export const NavigationLink = styled(LocalizedLink)`
   &:hover,
   &.active {
     font-weight: bold;
-    ${media.greaterThan('medium')`
-      font-weight: normal;
-    `}
+    color: #222;
+
+    &.top-level {
+      ${media.greaterThan('992px')`
+        font-weight: normal;
+      `}
+    }
 
     &:after {
       opacity: 1;
+      position: absolute !important;
       bottom: -10px;
       width: 100%;
     }

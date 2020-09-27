@@ -1,21 +1,21 @@
 {
-  "home": "Início",
+  "home": "Home",
 
-  "hello": "Site multilíngue em Gatsby",
-  "subline": "Internacionalização / i18n sem plugins ou pacotes de terceiros para Posts e Páginas. URLs diferentes dependendo do idioma. Foco em SEO, PWA, Otimização de imagens, Styled Components e muito mais. Esse starter também é integrado ao Netlify CMS para gerenciar todas as páginas, posts e imagens.",
-  "latestPosts": "Útimos posts",
-  "category": "Categoria",
-  "allPosts": "Todos os Posts",  
-  "toRead": "de leitura",
+  "hello": "TNTT TG Auburn, WA",
+  "subline": "This is the official website for TNTT at Holy Family Auburn, WA.",
+  "latestPosts": "Latest posts",
+  "category": "Category",
+  "allPosts": "All Posts",  
+  "toRead": "to read",
 
-  "next": "Próximo",
-  "prev": "Anterior",
-  "of": "de",
+  "next": "Next",
+  "prev": "Prev",
+  "of": "of",
 
-  "button": "Botão",
+  "button": "Button",
 
-  "aboutProject": "Iceberg Gatsby é um PWA, salve o site em sua homescreen para vê-lo offline.",
-  "seeMorePWA": "Leia mais sobre PWA aqui",
-  "maintainedBy": "Projeto mantido por",
-  "contributeMessage": "Você sempre poderá contribuir com esse projeto no"
+  "aboutProject": "A-Town TNTT is a PWA, save it for offline reading.",
+  "seeMorePWA": "See more PWA here",
+  "maintainedBy": "Maintained by",
+  "contributeMessage": "You can always contribute with the project on"
 }

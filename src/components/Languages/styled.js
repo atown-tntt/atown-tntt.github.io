@@ -4,11 +4,12 @@ import { Link } from 'gatsby';
 
 export const LanguageWrapper = styled.ul`
   display: flex;
+  align-items: center;
   position: absolute;
   top: var(--space-sm);
   right: var(--space-sm);
-  ${media.greaterThan('medium')`
-    margin-left: 0;
+  margin: 0;
+  ${media.greaterThan('992px')`
     position: relative;
     top: 0;
     right: 0;

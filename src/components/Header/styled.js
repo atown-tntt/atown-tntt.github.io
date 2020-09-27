@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import media from 'styled-media-query';
 import LocalizedLink from '../LocalizedLink';
+import Nav from 'react-bootstrap/Nav';
 
 export const HeaderWrapper = styled.div`
   background-color: var(--bg-light);
@@ -9,26 +10,25 @@ export const HeaderWrapper = styled.div`
   `}
 `;
 
+export const ContainerNav = styled(Nav)`
+  flex-basis: var(--width-container);
+`;
+
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-basis: var(--width-container);
+  flex-direction: row;
   max-width: var(--width-container);
   margin: 0 auto;
   justify-content: flex-start;
   align-items: center;
-  padding: calc(var(--space) * 1.3) var(--space);
+  padding: calc(var(--space)) var(--space);
   position: relative;
-  ${media.greaterThan('medium')`
-    flex-direction: row;
-  `}
-  ${media.greaterThan('large')`
-    padding: calc(var(--space)*1.3) var(--space-sm);
-  `}
 `;
 
 export const LogoLink = styled(LocalizedLink)`
   display: inline-block;
-  margin-right: 0.5rem;
+  margin: 10px 10px 10px 0;
   width: 120px;
 `;
 

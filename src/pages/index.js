@@ -5,6 +5,7 @@ import PostItem from '../components/PostItem';
 import TitlePage from '../components/TitlePage';
 import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import * as S from '../components/ListWrapper/styled';
 

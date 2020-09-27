@@ -37,6 +37,10 @@ const query = graphql`
             menuItems {
               link
               name
+              subMenu {
+                name
+                link
+              }
             }
           }
         }

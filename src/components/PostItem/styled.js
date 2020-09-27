@@ -7,13 +7,18 @@ export const PostItemLink = styled(LocalizedLink)`
   text-decoration: none;
   display: block;
   margin-bottom: var(--space);
+  color: black;
   ${media.greaterThan('small')`
     margin-bottom: 0;
   `}
+  &:hover {
+    text-decoration: none;
+    color: #222;
+  }
 `;
 
 export const PostItemWrapper = styled.section`
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-direction: column;
   width: 100%;

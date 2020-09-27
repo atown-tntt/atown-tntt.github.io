@@ -1,16 +1,12 @@
 {
   "languageMapping": [
     {
-      "en": "/about2",
-      "vi": "/sobre"
-    },
-    {
       "en": "/blog",
       "vi": "/blog"
     },
     {
       "en": "/contact",
-      "vi": "/contato"
+      "vi": "/contact"
     },
     {
       "en": "/about",
