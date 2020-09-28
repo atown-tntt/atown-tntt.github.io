@@ -3,6 +3,7 @@ title: 'Ngành Nghĩa Sĩ'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: NS
 ---
 
 # About
@@ -12,5 +13,3 @@ nắng bình minh đang ló dạng và rực sáng của lứa tuổi sắp bư�
 Nghĩa Sĩ gồm có các em từ 13-15 tuổi và có ba cấp: Cấp 1, 2 và 3.
 
 # Announcements
-
-# Gallery

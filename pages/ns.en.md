@@ -3,6 +3,7 @@ title: 'Ngành Nghĩa Sĩ'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: NS
 ---
 
 # About
@@ -13,5 +14,3 @@ division consists of members from ages 13 to 15 years old who comprise three
 levels: Levels 1, 2, and 3
 
 # Announcements
-
-# Gallery

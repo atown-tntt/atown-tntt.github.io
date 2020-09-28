@@ -3,6 +3,7 @@ title: 'Trợ Tá'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: TT
 ---
 
 # About
@@ -12,5 +13,3 @@ stripe. The color red represents sacrifice and endurance service. The blue
 stripe represents generosity, humility and kindness in serving TNTT.
 
 # Announcements
-
-# Gallery

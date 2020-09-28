@@ -13,5 +13,3 @@ innocence of this age group. This division consists of members from ages 7 to 9 
 comprise of three levels: Levels 1, 2, and 3.
 
 # Announcements
-
-# Gallery

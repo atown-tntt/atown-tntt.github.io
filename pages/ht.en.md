@@ -3,6 +3,7 @@ title: 'Huynh Trưởng'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: HT
 ---
 
 # About
@@ -13,5 +14,3 @@ sacrificial blood poured out for each of us, with a yellow border
 representing joy and hope. All youth leaders undergo training at age 18.
 
 # Announcements
-
-# Gallery

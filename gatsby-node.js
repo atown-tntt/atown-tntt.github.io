@@ -107,6 +107,7 @@ exports.createPages = async ({ graphql, actions }) => {
               title
               page
               pageType
+              category
             }
           }
         }
@@ -140,7 +141,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const isPage = file.frontmatter.page;
 
     // Setting a template for page or post depending on the content
-    let template = isPage ? pageTemplate : postTemplate;
+    let template;
     if (isPage) {
       const pageType = file.frontmatter.pageType;
       template = pageType === 'member' ? memberPageTemplate : pageTemplate;
@@ -150,7 +151,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Count posts
     postsTotal = isPage ? postsTotal + 0 : postsTotal + 1;
-
     createPage({
       path: localizedSlug({ isDefault, locale, slug, isPage }),
       component: template,
@@ -160,8 +160,8 @@ exports.createPages = async ({ graphql, actions }) => {
         // in different languages, e.g. because an english phrase is also common in german
         locale,
         title,
-        dateFormat: locales[lang].dateFormat,
         category: file.frontmatter.category,
+        dateFormat: locales[locale].dateFormat,
       },
     });
   });

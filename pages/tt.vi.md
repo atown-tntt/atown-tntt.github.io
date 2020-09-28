@@ -3,6 +3,7 @@ title: 'Trợ Tá'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: TT
 ---
 
 # About
@@ -14,5 +15,3 @@ xanh nước biển nói lên tấm lòng quảng đại, đức tính khiêm nh
 nhân hậu cùng với tinh thần phục vụ các em Thiếu Nhi.
 
 # Announcements
-
-# Gallery

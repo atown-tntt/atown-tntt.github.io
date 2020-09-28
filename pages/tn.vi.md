@@ -3,6 +3,7 @@ title: 'Ngành Thiếu Nhi'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: TN
 ---
 
 # About
@@ -12,5 +13,3 @@ trời xanh biển rộng và một hy vọng lớn lao cho tương lai. Ngành 
 10-12 tuổi với ba cấp: Cấp 1, 2, 3.
 
 # Announcements
-
-# Gallery

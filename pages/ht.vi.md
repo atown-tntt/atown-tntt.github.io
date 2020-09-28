@@ -3,6 +3,7 @@ title: 'Huynh Trưởng'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: HT
 ---
 
 # About
@@ -14,5 +15,3 @@ của máu tượng trưng cho sự hy sinh, màu của sự chịu đựng, mà
 hiến tế. Viền vàng: tượng trưng cho niềm vui mừng và hy vọng.
 
 # Announcements
-
-# Gallery

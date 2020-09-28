@@ -3,6 +3,7 @@ title: 'Ngành Ấu Nhi'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: AN
 ---
 
 # About
@@ -13,5 +14,3 @@ cậy vào cha mẹ và phó thác vào Chúa. Các em ở Ngành Ấu Nhi là t
 2 và 3.
 
 # Announcements
-
-# Gallery

@@ -3,6 +3,7 @@ title: 'Ngành Hiệp Sĩ'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: HS
 ---
 
 # About
@@ -14,5 +15,3 @@ Thiên Chúa. Ngành Hiệp Sĩ gồm có các em từ 16-17 tuổi và chia ra 
 Cấp 1 và 2.
 
 # Announcements
-
-# Gallery

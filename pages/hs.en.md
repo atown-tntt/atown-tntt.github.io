@@ -3,6 +3,7 @@ title: 'Ngành Hiệp Sĩ'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: HS
 ---
 
 # About
@@ -13,5 +14,3 @@ love of country, and love of God. This division consists of members from
 ages 16 to 17 years old who comprise two levels: Levels 1 and 2.
 
 # Announcements
-
-# Gallery

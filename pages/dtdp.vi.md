@@ -3,6 +3,7 @@ title: 'Đội Trưởng/Đội Phó'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: DTDP
 ---
 
 # About
@@ -15,5 +16,3 @@ Phó). ĐT/ĐP có nhiệm vụ hướng dẫn các đội viên và trợ giúp
 Huynh Trưởng trong các sinh hoạt tại Đoàn.
 
 # Announcements
-
-# Gallery

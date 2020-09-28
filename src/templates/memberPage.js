@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import TitlePage from '../components/TitlePage';
 import SEO from '../components/seo';
+import PostItem from '../components/PostItem';
 
 import * as S from '../components/Content/styled';
 import * as S2 from '../components/ListWrapper/styled';
@@ -100,4 +101,4 @@ export const query = graphql`
   }
 `;
 
-export default Page;
+export default MemberPage;

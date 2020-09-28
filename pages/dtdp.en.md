@@ -3,6 +3,7 @@ title: 'Đội Trưởng/Đội Phó'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: DTDP
 ---
 
 # About
@@ -14,4 +15,4 @@ skills to lead their classmates. Their motto is “Gương mẫu!”, meaning
 single stripe (Đội Phó) on their scarves. All youth are welcome to
 participate in this program starting at age 7.
 
-# Gallery
+# Announcements

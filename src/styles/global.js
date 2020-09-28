@@ -116,5 +116,9 @@ const GlobalStyles = createGlobalStyle`
       color: #fff;
     }
   }
+
+  .dropdown-toggle {
+    color: var(--text-dark) !important;
+  }
 `;
 export default GlobalStyles;

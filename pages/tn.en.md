@@ -3,6 +3,7 @@ title: 'Ngành Thiếu Nhi'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
+category: TN
 ---
 
 # About
@@ -12,5 +13,3 @@ and a great hope for the future. This division consists of members from ages 10 
 who comprise three levels: Levels 1, 2, and 3.
 
 # Announcements
-
-# Gallery
