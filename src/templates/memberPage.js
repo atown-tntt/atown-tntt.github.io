@@ -1,40 +1,28 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import SEO from '../components/seo';
-import PostItem from '../components/PostItem';
 import TitlePage from '../components/TitlePage';
-import LocalizedLink from '../components/LocalizedLink';
-import useTranslations from '../components/useTranslations';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import SEO from '../components/seo';
 
-import * as S from '../components/ListWrapper/styled';
+import * as S from '../components/Content/styled';
+import * as S2 from '../components/ListWrapper/styled';
 
-const Index = ({ data: { allMarkdownRemark } }) => {
-  // useTranslations is aware of the global context (and therefore also "locale")
-  // so it'll automatically give back the right translations
-  const {
-    hello,
-    subline,
-    category,
-    latestPosts,
-    allPosts,
-  } = useTranslations();
-
-  const postList = allMarkdownRemark.edges;
+const MemberPage = props => {
+  const post = props.data.markdownRemark;
+  const postList = props.data.allMarkdownRemark.edges;
 
   return (
-    <div className="homepage">
-      <SEO title="Home" />
-      <TitlePage text={hello} />
-      <p>{subline}</p>
-      <hr style={{ margin: `2rem 0` }} />
-      <h2>
-        <strong>{latestPosts}</strong>
-      </h2>
+    <>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
+      />
+      <TitlePage text={post.frontmatter.title} />
+      <S.Content>
+        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      </S.Content>
 
-      <br />
-
-      <S.ListWrapper>
+      <S2.ListWrapper>
         {postList.map(
           ({
             node: {
@@ -63,23 +51,28 @@ const Index = ({ data: { allMarkdownRemark } }) => {
               />
             ),
         )}
-      </S.ListWrapper>
-
-      <br />
-
-      <LocalizedLink to={`/blog/`}>{allPosts}</LocalizedLink>
-    </div>
+      </S2.ListWrapper>
+    </>
   );
 };
 
-export default Index;
-
 export const query = graphql`
-  query Index($locale: String!, $dateFormat: String!, ) {
+  query MemberPage($locale: String!, $title: String!, $category: String!, $dateFormat: String!) {
+    markdownRemark(
+      frontmatter: { title: { eq: $title } }
+      fields: { locale: { eq: $locale } }
+    ) {
+      frontmatter {
+        title
+        description
+        image
+      }
+      html
+    }
     allMarkdownRemark(
       filter: {
         fields: { locale: { eq: $locale } }
-        frontmatter: { category: { eq: "Announcements" } }
+        frontmatter: { category: { eq: $category } }
         fileAbsolutePath: {regex: "/(blog)\/.*\\.md$/"}
       }
       sort: { fields: [frontmatter___date], order: DESC }
@@ -106,3 +99,5 @@ export const query = graphql`
     }
   }
 `;
+
+export default Page;

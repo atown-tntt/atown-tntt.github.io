@@ -89,6 +89,7 @@ exports.createPages = async ({ graphql, actions }) => {
     `./src/templates/posts-list.js`,
   );
   const pageTemplate = path.resolve(`./src/templates/page.js`);
+  const memberPageTemplate = path.resolve(`./src/templates/memberPage.js`);
 
   const result = await graphql(`
     {
@@ -105,6 +106,7 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               title
               page
+              pageType
             }
           }
         }
@@ -138,7 +140,13 @@ exports.createPages = async ({ graphql, actions }) => {
     const isPage = file.frontmatter.page;
 
     // Setting a template for page or post depending on the content
-    const template = isPage ? pageTemplate : postTemplate;
+    let template = isPage ? pageTemplate : postTemplate;
+    if (isPage) {
+      const pageType = file.frontmatter.pageType;
+      template = pageType === 'member' ? memberPageTemplate : pageTemplate;
+    } else {
+      template = postTemplate;
+    }
 
     // Count posts
     postsTotal = isPage ? postsTotal + 0 : postsTotal + 1;
@@ -152,6 +160,8 @@ exports.createPages = async ({ graphql, actions }) => {
         // in different languages, e.g. because an english phrase is also common in german
         locale,
         title,
+        dateFormat: locales[lang].dateFormat,
+        category: file.frontmatter.category,
       },
     });
   });
