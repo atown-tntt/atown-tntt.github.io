@@ -15,7 +15,7 @@ const Navigation = ({ isActive, handleToggleMenu }) => {
         {menuItems.map((menu, index) => {
           if (menu.link) { // not a dropdown
             return (
-              <Nav.Link key={`${menu.link}${index}`}>
+              <div className="nav-link" key={`${menu.link}${index}`}>
                 <S.NavigationLink
                   className="top-level"
                   to={menu.link}
@@ -24,7 +24,7 @@ const Navigation = ({ isActive, handleToggleMenu }) => {
                 >
                   {menu.name}
                 </S.NavigationLink>
-              </Nav.Link>);
+              </div>);
           } else if (menu.subMenu) { // dropdown
             return (
               <NavDropdown title={menu.name} id="collapsible-nav-dropdown" key={`${menu.link}${index}`}>
