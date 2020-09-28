@@ -12,4 +12,3 @@ Holy Family Catholic Church Auburn \
 
 To learn more about Thieu Nhi Thanh The (The Vietnamese Eucharistic Youth
 Movement), please visit https://veym.net/.
-

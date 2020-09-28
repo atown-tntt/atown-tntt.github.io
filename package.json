@@ -10,7 +10,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "prettier": "prettier --write **/*.{md,css,scss,yaml,yml,ts}",
-    "lint": "eslint src/**/*.{js,jsx}"
+    "lint": "eslint src/**/*.{js,jsx}",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.18.2"
   }
 }
