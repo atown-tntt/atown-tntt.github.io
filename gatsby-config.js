@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/atown-website",
   siteMetadata: {
     title: `TNTT Auburn`,
     description: `The official site for TNTT at Holy Family Auburn, WA.`,

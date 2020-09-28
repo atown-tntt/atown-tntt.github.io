@@ -11,7 +11,7 @@
     "start": "npm run develop",
     "prettier": "prettier --write **/*.{md,css,scss,yaml,yml,ts}",
     "lint": "eslint src/**/*.{js,jsx}",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby clean && gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
