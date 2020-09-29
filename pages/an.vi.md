@@ -12,5 +12,3 @@ lá mạ, phía sau có Thánh Giá màu vàng. Màu xanh lá mạ tượng trư
 mình lớn dậy, màu của lứa tuổi hồn nhiên, trong trắng và ngây thơ. Cũng như các em luôn trông
 cậy vào cha mẹ và phó thác vào Chúa. Các em ở Ngành Ấu Nhi là từ 7-9 tuổi gồm có ba cấp: Cấp 1,
 2 và 3.
-
-# Announcements

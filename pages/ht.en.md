@@ -12,5 +12,3 @@ Their motto is “Phụng sự!”, meaning “to serve”. They wear red scarve
 representing sacrifice and perseverance of hardships, as red as the
 sacrificial blood poured out for each of us, with a yellow border
 representing joy and hope. All youth leaders undergo training at age 18.
-
-# Announcements

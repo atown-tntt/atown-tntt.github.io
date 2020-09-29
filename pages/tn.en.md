@@ -11,5 +11,3 @@ Ngành Thiếu Nhi (the Search Division)’s motto is “Hy Sinh!”, meaning �
 wears blue scarves, representing vitality as vast as the blue sky and as robust as the wide ocean
 and a great hope for the future. This division consists of members from ages 10 to 12 years old
 who comprise three levels: Levels 1, 2, and 3.
-
-# Announcements

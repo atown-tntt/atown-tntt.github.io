@@ -14,5 +14,3 @@ của ĐT/ĐP là “Gương mẫu!” Khăn quàng là mầu của Ngành theo 
 của các em đang sinh hoạt và có 2 viền (Đội Trưởng) hoặc một viền (Đội
 Phó). ĐT/ĐP có nhiệm vụ hướng dẫn các đội viên và trợ giúp các Anh Chị
 Huynh Trưởng trong các sinh hoạt tại Đoàn.
-
-# Announcements

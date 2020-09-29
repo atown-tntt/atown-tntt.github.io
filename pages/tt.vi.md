@@ -13,5 +13,3 @@ năng, đã qua một khóa huấn luyện Trợ Tá của Phong Trào, đã tuy
 nước biển. Màu đỏ màu của hy lễ và lòng hy sinh nhẫn nại phục vụ. Viền
 xanh nước biển nói lên tấm lòng quảng đại, đức tính khiêm nhường và
 nhân hậu cùng với tinh thần phục vụ các em Thiếu Nhi.
-
-# Announcements

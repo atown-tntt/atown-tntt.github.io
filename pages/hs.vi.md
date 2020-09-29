@@ -13,5 +13,3 @@ cho dòng máu đức tin của các Thánh Tử Đạo đã đổ ra và chảy
 mẹ, đẻ nói lên lòng dũng cảm, trung thành với đất nước và tinh yêu đối với
 Thiên Chúa. Ngành Hiệp Sĩ gồm có các em từ 16-17 tuổi và chia ra hai cấp:
 Cấp 1 và 2.
-
-# Announcements

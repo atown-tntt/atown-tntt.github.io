@@ -13,5 +13,3 @@ Cha Tuyên Úy. Khẩu hiệu của Huynh Trường là “Phụng Sự". Huynh 
 khăn quàng màu đỏ, viền vàng, phía sau có huy hiệu TNTT. Màu đỏ, màu
 của máu tượng trưng cho sự hy sinh, màu của sự chịu đựng, màu của sự
 hiến tế. Viền vàng: tượng trưng cho niềm vui mừng và hy vọng.
-
-# Announcements

@@ -12,5 +12,3 @@ Ngành Nghĩa Sĩ (the Companion Division)’s motto is “Chinh Phục!”, mea
 horizon and the brightness of an age preparing to step into the world. This
 division consists of members from ages 13 to 15 years old who comprise three
 levels: Levels 1, 2, and 3
-
-# Announcements

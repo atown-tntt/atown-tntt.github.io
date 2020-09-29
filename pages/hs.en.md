@@ -12,5 +12,3 @@ Ngành Hiệp Sĩ (the Knights of Eucharist)’s motto is “Dấn thân!”, me
 where the blood of Vietnamese martyrs was spilled, demonstrating valor,
 love of country, and love of God. This division consists of members from
 ages 16 to 17 years old who comprise two levels: Levels 1 and 2.
-
-# Announcements
