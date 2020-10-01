@@ -3,7 +3,7 @@ title: 'Cha Tuyên Uý và Trợ Uý'
 date: 2019-07-01 01:21:23
 page: true
 pageType: member
-category: Cha/Souer
+category: Cha.Souer
 ---
 
 # About
