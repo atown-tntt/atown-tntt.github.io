@@ -7,6 +7,7 @@ import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import doanImage from '../images/dtg-logo.png';
 
 const Index = ({ data: { allMarkdownRemark } }) => {
   // useTranslations is aware of the global context (and therefore also "locale")
