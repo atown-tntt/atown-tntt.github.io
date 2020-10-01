@@ -1,13 +1,12 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import SEO from '../components/seo';
-import PostItem from '../components/PostItem';
+import PostListPreview from '../components/PostListPreview';
 import TitlePage from '../components/TitlePage';
 import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import * as S from '../components/ListWrapper/styled';
 
 const Index = ({ data: { allMarkdownRemark } }) => {
   // useTranslations is aware of the global context (and therefore also "locale")
@@ -34,36 +33,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
 
       <br />
 
-      <S.ListWrapper>
-        {postList.map(
-          ({
-            node: {
-              frontmatter: {
-                background,
-                category,
-                date,
-                description,
-                title,
-                image,
-              },
-              timeToRead,
-              fields: { slug },
-            },
-          }) => (
-              <PostItem
-                slug={`/blog/${slug}`}
-                background={background}
-                category={category}
-                date={date}
-                timeToRead={timeToRead}
-                title={title}
-                description={description}
-                image={image}
-                key={slug}
-              />
-            ),
-        )}
-      </S.ListWrapper>
+      <PostListPreview postList={postList} />
 
       <br />
 

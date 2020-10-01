@@ -1,12 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import PostItem from '../components/PostItem';
+import PostListPreview from '../components/PostListPreview';
 import TitlePage from '../components/TitlePage';
 import SEO from '../components/seo';
 
 import Pagination from '../components/Pagination';
-
-import * as S from '../components/ListWrapper/styled';
 
 const Blog = props => {
   const postList = props.data.allMarkdownRemark.edges;
@@ -16,7 +14,7 @@ const Blog = props => {
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
   const prevPage =
-    currentPage - 1 === 1 ? '/blog' : `/blog/${currentPage - 1}`;
+    currentPage - 1 === 1 ? '/blog' : `/blog/page/${currentPage - 1}`;
   const nextPage = `/blog/page/${currentPage + 1}`;
 
   return (
@@ -24,36 +22,7 @@ const Blog = props => {
       <SEO title="Blog" />
       <TitlePage text="Blog" />
 
-      <S.ListWrapper>
-        {postList.map(
-          ({
-            node: {
-              frontmatter: {
-                background,
-                category,
-                date,
-                description,
-                title,
-                image,
-              },
-              timeToRead,
-              fields: { slug },
-            },
-          }) => (
-            <PostItem
-              slug={`/blog/${slug}`}
-              background={background}
-              category={category}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-              description={description}
-              image={image}
-              key={slug}
-            />
-          ),
-        )}
-      </S.ListWrapper>
+      <PostListPreview postList={postList} />
 
       <Pagination
         isFirst={isFirst}

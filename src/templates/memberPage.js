@@ -2,14 +2,16 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import TitlePage from '../components/TitlePage';
 import SEO from '../components/seo';
-import PostItem from '../components/PostItem';
+import PostListPreview from '../components/PostListPreview';
+import Carousel from 'react-bootstrap/Carousel';
+import Img from 'gatsby-image';
 
 import * as S from '../components/Content/styled';
-import * as S2 from '../components/ListWrapper/styled';
 
 const MemberPage = props => {
   const post = props.data.markdownRemark;
   const postList = props.data.allMarkdownRemark.edges;
+  const images = props.data.allFile.edges;
 
   return (
     <>
@@ -21,38 +23,28 @@ const MemberPage = props => {
       <TitlePage text={post.frontmatter.title} />
       <S.Content>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        <h1>Gallery</h1>
       </S.Content>
 
-      <S2.ListWrapper>
-        {postList.map(
-          ({
-            node: {
-              frontmatter: {
-                background,
-                category,
-                date,
-                description,
-                title,
-                image,
-              },
-              timeToRead,
-              fields: { slug },
-            },
-          }) => (
-              <PostItem
-                slug={`/blog/${slug}`}
-                background={background}
-                category={category}
-                date={date}
-                timeToRead={timeToRead}
-                title={title}
-                description={description}
-                image={image}
-                key={slug}
-              />
-            ),
-        )}
-      </S2.ListWrapper>
+      <Carousel className='w-auto mx-5'>
+        {images.map((image) => (
+          <Carousel.Item>
+            <Img
+              fluid={image.node.childImageSharp.fluid}
+              alt={image.node.base.split('.')[0]}
+            />
+          </Carousel.Item>
+        ))} 
+      </Carousel>
+      
+      {postList.length > 0 && (
+        <>
+          <S.Content>
+            <h1>Announcements</h1>
+          </S.Content>
+          <PostListPreview postList={postList} />
+        </>
+      )}
     </>
   );
 };
@@ -94,6 +86,23 @@ export const query = graphql`
           fields {
             locale
             slug
+          }
+        }
+      }
+    }
+    allFile(
+      filter: {
+        extension: { regex: "/(jpg)|(png)|(jpeg)/" }
+        relativeDirectory: { eq: $category }
+      }
+    ) {
+      edges {
+        node {
+          base
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
