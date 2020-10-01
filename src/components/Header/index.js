@@ -15,7 +15,7 @@ const Header = () => {
   const { openedMenu, toggleMenu } = useMenu();
 
   return (
-    <Navbar collapseOnSelect className='justify-content-center' expand='lg' bg='light' variant='light'>
+    <Navbar collapseOnSelect className='justify-content-center' expand='lg' variant='dark' style={{ backgroundColor: '#404352' }}>
       <S.ContainerNav className='justify-content-center align-items-center'>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ position: "absolute", left: "10px", top: "64px" }}/>
         <S.LogoLink to="/" title={home} aria-label={home}>

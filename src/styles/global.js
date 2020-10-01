@@ -98,7 +98,7 @@ const GlobalStyles = createGlobalStyle`
     --link-color-hover: var(--thirdy-color);
 
     --text-color: var(--gray);
-    --text-light:var(--gray-light);
+    --text-light:var(--gray-extra-light);
     --text-dark: var(--gray-dark);
 
     --width-container: 1040px;
@@ -118,7 +118,19 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .dropdown-toggle {
-    color: var(--text-dark) !important;
+    color: var(--text-light) !important;
+  }
+
+  .dropdown-menu {
+    background-color: #343642 !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #4b4d5e !important;
+  }
+
+  .dropdown-item.active {
+    background-color: inherit !important;
   }
 `;
 export default GlobalStyles;

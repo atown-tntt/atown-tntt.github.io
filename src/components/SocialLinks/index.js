@@ -11,16 +11,6 @@ const SocialLinks = () => {
     <S.SocialLinksList>
       <S.SocialLinksItem>
         <S.SocialLinksLink>
-          <Twitter />
-        </S.SocialLinksLink>
-      </S.SocialLinksItem>
-      <S.SocialLinksItem>
-        <S.SocialLinksLink>
-          <Instagram />
-        </S.SocialLinksLink>
-      </S.SocialLinksItem>
-      <S.SocialLinksItem>
-        <S.SocialLinksLink>
           <Facebook />
         </S.SocialLinksLink>
       </S.SocialLinksItem>

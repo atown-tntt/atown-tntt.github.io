@@ -23,12 +23,12 @@ export const LanguageItem = styled.li`
 export const LanguageLink = styled(Link)`
   display: inline-block;
   margin-right: 0.5rem;
-  color: var(--gray);
+  color: var(--text-light);
   font-size: 1.4rem;
   text-decoration: none;
 
   &.is-active {
-    color: var(--secondary-color);
+    color: var(--text-light);
     font-weight: bold;
   }
 `;

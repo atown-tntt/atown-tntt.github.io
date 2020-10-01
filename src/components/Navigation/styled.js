@@ -4,7 +4,7 @@ import LocalizedLink from '../LocalizedLink';
 import { Link } from 'gatsby';
 
 export const NavigationLink = styled(LocalizedLink)`
-  color: var(--text-dark);
+  color: var(--text-light) !important;
   text-decoration: none !important;
   position: relative;
   margin-bottom: var(--space-sm);
@@ -33,7 +33,7 @@ export const NavigationLink = styled(LocalizedLink)`
   &:hover,
   &.active {
     font-weight: bold;
-    color: #222;
+    color: var(--text-light) !important;
 
     &.top-level {
       ${media.greaterThan('992px')`

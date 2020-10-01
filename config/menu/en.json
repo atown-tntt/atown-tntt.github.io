@@ -2,7 +2,7 @@
   "menuItems": [
     { "name": "Home", "link": "/" },
     { "name": "About Us", "link": "/about" },
-    { "name": "Member Pages", "subMenu": [
+    { "name": "Divisions", "subMenu": [
       { "name": "AN", "link": "/an" },
       { "name": "TN", "link": "/tn" },
       { "name": "NS", "link": "/ns" },
@@ -12,7 +12,7 @@
       { "name": "Cha/Sơ", "link": "/chasouer" },
       { "name": "DTDP", "link": "/dtdp" }
     ]},
-    { "name": "Blog", "link": "/blog" },
+    { "name": "News", "link": "/blog" },
     { "name": "Contact", "link": "/contact" }
   ]
 }

@@ -26,7 +26,7 @@ const MemberPage = props => {
         <h1>Gallery</h1>
       </S.Content>
 
-      <Carousel className='w-auto mx-5'>
+      <Carousel className='w-auto mx-lg-5'>
         {images.map((image) => (
           <Carousel.Item>
             <Img

@@ -19,3 +19,7 @@ export const FooterContainer = styled.div`
     margin: 1rem 0;
   }
 `;
+
+export const SmallText = styled.div`
+  font-size: 1rem;
+`;
