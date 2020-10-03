@@ -13,6 +13,11 @@ movement (VEYM) located in Auburn, Washington. We are a part of the League of Ch
 Ignatius of Loyola in the Pacific Northwest. Our chapter was founded in 2004. From
 September to June, we meet every Sunday from 12:30-3pm, with Vietnamese mass at 3pm.
 
+### Registration
+Welcome back to TNTT. Beginning October 4, 2020, TNTT will meet every 1st and 3rd Sunday of the month from 1:00 pm to 2:00 pm via Zoom. Register your child for $40 on before and after mass or online at [this link](https://forms.gle/o9UqWV3qdBjRaQgX8)
+
+We are very happy to start classes again and grow in God's love.
+
 ## Our Purpose
 The Eucharistic Youth Movement has two general purposes:
 

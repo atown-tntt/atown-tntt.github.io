@@ -1,5 +1,5 @@
 ---
-title: 'About Us VN'
+title: 'Giới Thiệu'
 date: 2019-07-01 01:21:23
 page: true
 ---
@@ -12,6 +12,14 @@ em Thiếu Nhi Thánh Thể biết tận tình yêu mến và phục vụ Chúa.
 Washington. Thuộc Liên Đoàn Inhaxiô Loyola của Miền Tây Bắc. Đoàn được thành
 lập vào năm 2004. Từ tháng Chín đến tháng sáu của niên học, Đoàn sinh hoạt mỗi
 Chúa Nhật 12:30pm-3:00pm và Thánh Lễ lúc 3:00pm.
+
+### Ghi Danh
+Đoàn TNTT chúng con xin chào quý phụ huynh.  TNTT sẽ bắt đầu vào Chúa Nhật ngày 4 tháng 10, 2020 trực tuyến qua Zoom, các em sẽ sinh hoạt mỗi Chúa Nhật tuần thứ nhất và tuần thứ ba của mỗi tháng, từ 1:00pm-2:00pm. Chúng con sẽ gửi cho phụ huynh những chi tiết cho buổi họp trực tuyến Zoom qua điện thư. Mỗi ngành sẽ có Zoom khác nhau.
+ 
+Kính mời quý phụ huynh ghi danh cho các em bắt đầu ngày 13, 20 và 27 tháng 9 trước và sau Thánh Lễ. Lệ phí cho mỗi đoàn sinh là $40/em. Quý phụ huynh có thể ghi danh cho các em trên mạng bằng cách bấm vào link [ở đây](https://forms.gle/o9UqWV3qdBjRaQgX8): 
+ 
+Chúng con rất vui và mong gặp lại các em để cùng nhau lớn lên trong tình yêu của Thiên Chúa.
+
 
 ## Mục Đích:
 

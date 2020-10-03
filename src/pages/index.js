@@ -7,7 +7,7 @@ import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import doanImage from '../images/dtg-logo.png';
+import doanImage from '../images/doan-img.jpg';
 
 const Index = ({ data: { allMarkdownRemark } }) => {
   // useTranslations is aware of the global context (and therefore also "locale")
@@ -27,10 +27,12 @@ const Index = ({ data: { allMarkdownRemark } }) => {
       <SEO title="Home" />
       <TitlePage text={hello} />
       <p>{subline}</p>
+      <img src={doanImage} alt="image of doan"/>
+
       <hr style={{ margin: `2rem 0` }} />
-      <h2>
+      <h1>
         <strong>{latestPosts}</strong>
-      </h2>
+      </h1>
 
       <br />
 

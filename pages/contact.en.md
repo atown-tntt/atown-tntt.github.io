@@ -11,4 +11,4 @@ Holy Family Catholic Church Auburn \
 505 17th St SE, Auburn, WA 98002
 
 To learn more about Thieu Nhi Thanh The (The Vietnamese Eucharistic Youth
-Movement), please visit https://veym.net/.
+Movement), please visit https://veym.net/
