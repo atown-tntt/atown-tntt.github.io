@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import useTranslations from '../useTranslations';
+import { memberColors } from '../../../config/constants';
 
 import * as S from './styled';
 
@@ -65,7 +66,7 @@ const PostItem = ({
         )}
 
         <S.PostItemInfo>
-          <S.PostItemTag background={background}>
+          <S.PostItemTag background={background || memberColors[category]}>
             {category}
           </S.PostItemTag>
           <S.PostItemDate>

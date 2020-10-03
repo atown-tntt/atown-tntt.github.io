@@ -10,9 +10,10 @@ import * as S from '../components/Content/styled';
 
 const MemberPage = props => {
   const post = props.data.markdownRemark;
+  const category = post.frontmatter.category;
   const postList = props.data.allMarkdownRemark.edges;
   const images = props.data.allFile.edges;
-
+  
   return (
     <>
       <SEO
@@ -20,7 +21,7 @@ const MemberPage = props => {
         description={post.frontmatter.description}
         image={post.frontmatter.image}
       />
-      <TitlePage text={post.frontmatter.title} />
+      <TitlePage text={post.frontmatter.title} category={category} />
       <S.Content>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         <h1>Gallery</h1>
@@ -59,6 +60,7 @@ export const query = graphql`
         title
         description
         image
+        category
       }
       html
     }

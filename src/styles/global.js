@@ -122,7 +122,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .dropdown-menu {
-    background-color: #343642 !important;
+    background-color: #112 !important;
   }
 
   .dropdown-item:hover {
