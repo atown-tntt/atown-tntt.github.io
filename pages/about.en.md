@@ -2,6 +2,8 @@
 title: 'About Us'
 date: 2019-07-01 01:21:23
 page: true
+pageType: member
+category: About
 ---
 
 The Vietnamese Eucharistic Youth Movement is a Catholic non-profit organization. We are a

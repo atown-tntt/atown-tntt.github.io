@@ -2,6 +2,8 @@
 title: 'Giới Thiệu'
 date: 2019-07-01 01:21:23
 page: true
+pageType: member
+category: About
 ---
 
 Phong Trào Thiếu Nhi Thánh Thể Việt Nam tại Hoa Kỳ (PT/TNTT/VN/HK) là một
