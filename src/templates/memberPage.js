@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 import PostListPreview from '../components/PostListPreview';
 import Carousel from 'react-bootstrap/Carousel';
 import Img from 'gatsby-image';
-import useTranslations from '../../config/translations';
+import useTranslations from '../components/useTranslations';
 
 import * as S from '../components/Content/styled';
 
