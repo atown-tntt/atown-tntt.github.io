@@ -21,7 +21,7 @@ export const NavigationLink = styled(LocalizedLink)`
       display: inline-block;
       width: 0;
       height: 4px;
-      background: var(--primary-color);
+      background: #AAF;
       position: absolute;
       left: 0;
       bottom: -10px;
