@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import PostListPreview from '../components/PostListPreview';
 import TitlePage from '../components/TitlePage';
 import SEO from '../components/seo';
+import useTranslations from '../components/useTranslations';
 
 import Pagination from '../components/Pagination';
 
@@ -17,10 +18,12 @@ const Blog = props => {
     currentPage - 1 === 1 ? '/blog' : `/blog/page/${currentPage - 1}`;
   const nextPage = `/blog/page/${currentPage + 1}`;
 
+  const { news } = useTranslations();
+
   return (
     <>
       <SEO title="Blog" />
-      <TitlePage text="Blog" />
+      <TitlePage text={news} />
 
       <PostListPreview postList={postList} />
 

@@ -69,7 +69,7 @@ const PostItem = ({
             {category}
           </S.PostItemTag>
           <S.PostItemDate>
-            {date} • {timeToRead} min {toRead}
+            {date} {/*• {timeToRead} min {toRead}*/}
           </S.PostItemDate>
           <S.PostItemTitle>{title}</S.PostItemTitle>
           <S.PostItemDescription>{description}</S.PostItemDescription>

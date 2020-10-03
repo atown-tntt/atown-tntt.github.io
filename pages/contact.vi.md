@@ -1,10 +1,10 @@
 ---
-title: 'Contact'
+title: 'Liên Lạc'
 date: 2019-07-01 01:21:23
 page: true
 ---
 
-![test](../../static/assets/images/contact-img.JPG)
+![image of scarves](../../static/assets/images/contact-img.JPG)
 
 Email: [thanhgiaauburn@gmail.com](mailto:thanhgiaauburn@gmail.com)
 

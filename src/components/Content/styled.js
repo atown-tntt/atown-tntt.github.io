@@ -3,7 +3,7 @@ import media from 'styled-media-query';
 
 export const Content = styled.section`
   margin: auto;
-  padding: var(--space-lg) 0;
+  padding: 0 0 var(--space-lg) 0;
 
   & > *:first-child {
     margin-top: 0 !important;
