@@ -27,6 +27,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
       <SEO title="Home" />
       <TitlePage text={hello} />
       <p>{subline}</p>
+      <br />
       <img src={doanImage} alt="image of doan"/>
 
       <hr style={{ margin: `2rem 0` }} />
