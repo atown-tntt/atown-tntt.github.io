@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `TNTT Auburn`,
+    title: `TNTT Holy Family Auburn`,
     description: `The official site for TNTT at Holy Family Auburn, WA.`,
-    author: `@atown-tntt`,
-    siteUrl: `https://example.com/`,
+    author: `@dtgauburn`,
+    siteUrl: `https://dtgauburn.org/`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
