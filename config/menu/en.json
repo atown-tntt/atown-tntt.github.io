@@ -3,14 +3,14 @@
     { "name": "Home", "link": "/" },
     { "name": "About Us", "link": "/about" },
     { "name": "Divisions", "subMenu": [
-      { "name": "AN", "link": "/an" },
-      { "name": "TN", "link": "/tn" },
-      { "name": "NS", "link": "/ns" },
-      { "name": "HS", "link": "/hs" },
-      { "name": "HT", "link": "/ht" },
-      { "name": "TT", "link": "/tt" },
+      { "name": "Ấu Nhi", "link": "/an" },
+      { "name": "Thiếu Nhi", "link": "/tn" },
+      { "name": "Nghĩa Sĩ", "link": "/ns" },
+      { "name": "Hiệp Sĩ", "link": "/hs" },
+      { "name": "Huynh Trưởng", "link": "/ht" },
+      { "name": "Trợ Tá", "link": "/tt" },
       { "name": "Cha/Sơ", "link": "/chasouer" },
-      { "name": "DTDP", "link": "/dtdp" }
+      { "name": "Đội Trưởng/Đội Phó", "link": "/dtdp" }
     ]},
     { "name": "News", "link": "/blog" },
     { "name": "Contact", "link": "/contact" }

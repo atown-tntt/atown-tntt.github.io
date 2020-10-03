@@ -4,4 +4,7 @@ export const memberColors = {
     NS: "#e6c647",
     HS: "#874f1e",
     HT: "#e63125",
+    TT: "#e63125",
+    DTDP: "#9b34eb",
+    "Cha.Souer": "#111",
 };

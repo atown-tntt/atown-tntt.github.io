@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import SEO from '../components/seo';
 import PostListPreview from '../components/PostListPreview';
 import TitlePage from '../components/TitlePage';
@@ -7,9 +8,7 @@ import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import doanImage from '../images/doan-img.jpg';
-
-const Index = ({ data: { allMarkdownRemark } }) => {
+const Index = ({ data }) => {
   // useTranslations is aware of the global context (and therefore also "locale")
   // so it'll automatically give back the right translations
   const {
@@ -20,7 +19,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
     allPosts,
   } = useTranslations();
 
-  const postList = allMarkdownRemark.edges;
+  const postList = data.allMarkdownRemark.edges;
 
   return (
     <div className="homepage">
@@ -28,7 +27,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
       <TitlePage text={hello} />
       <p>{subline}</p>
       <br />
-      <img src={doanImage} alt="image of doan"/>
+      <Img fluid={data.doanImgFile.childImageSharp.fluid} alt="image of doan"/>
 
       <hr style={{ margin: `2rem 0` }} />
       <h1>
@@ -50,6 +49,14 @@ export default Index;
 
 export const query = graphql`
   query Index($locale: String!, $dateFormat: String!, ) {
+    doanImgFile: file(base: {eq:"doan-img.JPG"}) {
+      base
+      childImageSharp {
+        fluid(maxWidth: 1040, quality: 90) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(
       filter: {
         fields: { locale: { eq: $locale } }
