@@ -6,7 +6,7 @@ pageType: member
 category: HT
 ---
 
-# About
+# Giới Thiệu
 Huynh Trưởng là những giáo dân Công Giáo từ 18 tuổi trở lên và đã qua các
 khóa huấn luyện của Phong Trào, đã tuyên hứa và được sự bổ nhiệm của
 Cha Tuyên Úy. Khẩu hiệu của Huynh Trường là “Phụng Sự". Huynh Trưởng

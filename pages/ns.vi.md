@@ -6,7 +6,7 @@ pageType: member
 category: NS
 ---
 
-# About
+# Giới Thiệu
 Ngành Nghĩa Sĩ với khẩu hiệu “Chinh Phục”: từ 13 đến 15 tuổi. Khăn quàng màu
 vàng nghệ, phía sau có Thánh Giá màu đỏ. Màu vàng nghệ tượng trưng cho ánh
 nắng bình minh đang ló dạng và rực sáng của lứa tuổi sắp bước vào đời. Ngành

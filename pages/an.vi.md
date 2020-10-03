@@ -6,7 +6,7 @@ pageType: member
 category: AN
 ---
 
-# About
+# Giới Thiệu
 Ngành Ấu Nhi với khẩu hiệu “Ngoan!”, từ 6 đến 9 tuổi là Ấu Nhi chính thức. Khăn quàng màu xanh
 lá mạ, phía sau có Thánh Giá màu vàng. Màu xanh lá mạ tượng trưng của chồi non đang vươn
 mình lớn dậy, màu của lứa tuổi hồn nhiên, trong trắng và ngây thơ. Cũng như các em luôn trông

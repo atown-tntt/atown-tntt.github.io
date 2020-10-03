@@ -6,7 +6,7 @@ pageType: member
 category: TT
 ---
 
-# About
+# Giới Thiệu
 Trợ Tá là những giáo dân hoặc phụ huynh Công Giáo có thiện chí và khả
 năng, đã qua một khóa huấn luyện Trợ Tá của Phong Trào, đã tuyên hứa và
 được sự bổ nhiệm của Cha Tuyên Úy. Khăn quàng Trợ Tá màu đỏ, viền xanh

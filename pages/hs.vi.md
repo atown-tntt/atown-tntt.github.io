@@ -6,7 +6,7 @@ pageType: member
 category: HS
 ---
 
-# About
+# Giới Thiệu
 Ngành Hiệp Sĩ với khẩu hiệu “Dấn thân!”: từ 16 đến 17 tuổi. Khăn quàng
 màu nâu đất viền đỏ, phía sau có huy hiệu TNTT. Màu nâu đất tượng trưng
 cho dòng máu đức tin của các Thánh Tử Đạo đã đổ ra và chảy vào lòng đất

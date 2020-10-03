@@ -6,7 +6,7 @@ pageType: member
 category: Cha.Souer
 ---
 
-# About
+# Giới Thiệu
 Khăn quàng Tuyên Úy màu trắng viền đỏ, nói lên sự thanh sạch, lòng đạo đức sốt
 mến, đức tính khiêm nhường và tinh thần dấn thân cao độ của người Tuyên Úy.
 Khăn Trợ Úy màu đỏ, viền trắng, phía sau có huy hiệu TNTT. Màu đỏ, màu của lễ

@@ -6,7 +6,7 @@ pageType: member
 category: DTDP
 ---
 
-# About
+# Giới Thiệu
 Đội Trưởng/Đội Phó (ĐT/ĐP) là chương trình huấn luyện được mở rộng cho
 tất cả các đoàn sinh. Để trở thành ĐT/ĐP các em phải tham dự 10 khóa
 huấn luyện tại Đoàn và Sa Mạc Huấn Luyện ĐT/ĐP hằng năm. Khẩu hiệu

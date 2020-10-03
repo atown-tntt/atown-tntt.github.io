@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 import PostListPreview from '../components/PostListPreview';
 import Carousel from 'react-bootstrap/Carousel';
 import Img from 'gatsby-image';
+import useTranslations from '../../config/translations';
 
 import * as S from '../components/Content/styled';
 
@@ -13,6 +14,7 @@ const MemberPage = props => {
   const category = post.frontmatter.category;
   const postList = props.data.allMarkdownRemark.edges;
   const images = props.data.allFile.edges;
+  const { gallery, news } = useTranslations();
   
   return (
     <>
@@ -24,7 +26,7 @@ const MemberPage = props => {
       <TitlePage text={post.frontmatter.title} category={category} />
       <S.Content>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-        <h1>Gallery</h1>
+        <h1>{gallery}</h1>
       </S.Content>
 
       <Carousel className='w-auto mx-lg-5 mb-5'>
@@ -41,7 +43,7 @@ const MemberPage = props => {
       {postList.length > 0 && (
         <>
           <S.Content>
-            <h1>Announcements</h1>
+            <h1>{news}</h1>
           </S.Content>
           <PostListPreview postList={postList} />
         </>
