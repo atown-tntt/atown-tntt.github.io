@@ -31,7 +31,7 @@ function SEO({ description, lang, meta, title, image }) {
     const metaDescription = description || site.siteMetadata.description
 
     const url = site.siteMetadata.siteUrl
-    const ogImage = `${url}${image || '/assets/img/cover.png'}`
+    const ogImage = `${url}${image || '/assets/img/contact-img.JPG'}`
 
     // add rtl support - Arabic is Right to Left Language
     // change ar with your RTL language
