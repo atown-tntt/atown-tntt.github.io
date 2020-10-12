@@ -10,7 +10,12 @@ const SocialLinks = () => {
   return (
     <S.SocialLinksList>
       <S.SocialLinksItem>
-        <S.SocialLinksLink>
+        <S.SocialLinksLink
+          href="https://www.facebook.com/groups/Tnttauburn"
+          title="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Facebook />
         </S.SocialLinksLink>
       </S.SocialLinksItem>

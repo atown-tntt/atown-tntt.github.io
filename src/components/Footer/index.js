@@ -22,7 +22,7 @@ const Footer = () => {
             Ðoàn Thánh Gia<br />
             505 17th St SE Auburn, WA 98002<br />
             Email: <a href='mailto:thanhgiaauburn@gmail.com'>thanhgiaauburn@gmail.com</a><br />
-            Copyright © 2004 - 2020. All Rights Reserved
+            Copyright © 2004 - 2020. All Rights Reserved.
           </p>
         </S.SmallText>
       </S.FooterContainer>

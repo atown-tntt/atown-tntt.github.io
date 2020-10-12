@@ -94,7 +94,12 @@ module.exports = {
         ],
       },
     },
-
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-131120269-2`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
