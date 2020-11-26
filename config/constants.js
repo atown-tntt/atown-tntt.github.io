@@ -7,4 +7,5 @@ export const memberColors = {
     TT: "#e63125",
     DTDP: "#9b34eb",
     "Cha.Souer": "#111",
+    Announcements: "#353b48",
 };
