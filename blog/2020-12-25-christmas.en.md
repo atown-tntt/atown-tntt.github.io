@@ -6,4 +6,4 @@ category: Announcements
 image: '/assets/img/christmas2020.jpg'
 ---
 
-![Thanksgiving Image](/assets/images/christmas2020.jpg)
+![Christmas Image](/assets/images/christmas2020.jpg)
