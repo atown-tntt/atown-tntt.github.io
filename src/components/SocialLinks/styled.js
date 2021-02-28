@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const SocialLinksList = styled.ul`
   display: flex;
+  flex-direction: row;
 `;
 
 export const SocialLinksItem = styled.li`

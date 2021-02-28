@@ -72,10 +72,6 @@ const GlobalStyles = createGlobalStyle`
   	height: auto;
   }
 
-  a {
-    color: var(--primaryColor)
-  }
-
   :root { 
     --gray-extra-light: #eaeaea; 
     --gray-light: #747d8d;  

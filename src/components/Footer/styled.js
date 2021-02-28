@@ -17,6 +17,7 @@ export const FooterContainer = styled.div`
 
   p {
     margin: 1rem 0;
+    line-height: 2rem;
   }
 `;
 
