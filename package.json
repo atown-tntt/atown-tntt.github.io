@@ -6,9 +6,9 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "develop": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby develop",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider; npm run develop",
     "prettier": "prettier --write **/*.{md,css,scss,yaml,yml,ts}",
     "lint": "eslint src/**/*.{js,jsx}",
     "deploy": "gatsby clean && gatsby build && gh-pages -d public"
