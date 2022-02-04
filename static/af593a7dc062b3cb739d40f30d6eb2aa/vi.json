@@ -1,0 +1,18 @@
+{
+  "menuItems": [
+    { "name": "Home", "link": "/" },
+    { "name": "Giới Thiệu", "link": "/about" },
+    { "name": "Ngành", "subMenu": [
+      { "name": "Ấu Nhi", "link": "/an" },
+      { "name": "Thiếu Nhi", "link": "/tn" },
+      { "name": "Nghĩa Sĩ", "link": "/ns" },
+      { "name": "Hiệp Sĩ", "link": "/hs" },
+      { "name": "Huynh Trưởng", "link": "/ht" },
+      { "name": "Trợ Tá", "link": "/tt" },
+      { "name": "Cha/Sơ", "link": "/chasouer" },
+      { "name": "Đội Trưởng/Đội Phó", "link": "/dtdp" }
+    ]},
+    { "name": "Tin Tức", "link": "/blog" },
+    { "name": "Liên Lạc", "link": "/contact" }
+  ]
+}
